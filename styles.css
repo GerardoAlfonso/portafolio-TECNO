@@ -1,0 +1,180 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(247, 248, 250);
+}
+:root{
+    --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2,12,27,0.7);
+    --dark-slate: #495670;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+    --green: #64ffda;
+    --green-tint: rgba(100,255,218,0.1);
+    --pink: #f57dff;
+    --blue: #57cbff;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --fz-xxs: 12px;
+    --fz-xs: 13px;
+    --fz-sm: 14px;
+    --fz-md: 16px;
+    --fz-lg: 18px;
+    --fz-xl: 20px;
+    --fz-xxl: 22px;
+    --fz-heading: 32px;
+    --border-radius: 4px;
+    --nav-height: 100px;
+    --nav-scroll-height: 70px;
+    --tab-height: 42px;
+    --tab-width: 120px;
+}
+.resume
+{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+    background-color: rgb(26, 30, 34);
+}
+.user-info
+{
+    margin: auto;
+}
+.photo{
+    margin: 0px auto;
+    width: 150px;
+    height: 150px;
+    background-image: url('profile.png');
+    background-size: cover;
+    border-radius: 50%;
+    border: 0.5rem solid rgb(0, 112, 243);
+}
+.name{
+    margin: 0px auto;
+    margin-bottom: 1.5rem;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    color: rgb(0, 112, 243);    
+    font-size: 1.5rem;
+}
+.description
+{
+    font-family: Inter, system, -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Arial, sans-serif;
+    color: rgb(200, 225, 255);
+    text-align: center;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+}
+.card-1, .card-2
+{
+    margin-right: 2rem;
+    width: 10%;
+    max-width: 150px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    text-align: center;
+    background-color: rgb(36, 41, 46);
+}
+
+.card-header-number
+{
+    color: rgb(246, 248, 250);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.card-header-title
+{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    color: rgba(200, 225, 255, 0.7);
+}
+
+/* ******* */
+.content
+{
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+
+.card-generic
+{   
+    margin-right: 2rem;
+    width: calc(33% - 4rem);
+    max-width: 300px;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 30px -15px;
+}
+
+.card-generic .card-title
+{
+    display: inline-block;
+    margin: 0px;
+    font-size: 1.75rem;
+    background-image: linear-gradient(90deg, rgb(209, 213, 218) 50%, rgba(255, 255, 255, 0) 0px);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 2px;
+    padding-bottom: 6px;
+    margin-bottom: 2rem;
+}
+.card-generic > img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1440px) {
+    .cards
+    {
+        margin-top: -5%;
+    }
+    .resume{
+        padding-bottom: 15%;
+    }
+}
+@media screen and (max-width: 2560px) {
+    .cards
+    {
+        margin-top: -2%;
+    }
+    .resume{
+        padding-bottom: 5%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
