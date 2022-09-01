@@ -198,6 +198,9 @@ body{
     .modal-container.active{
         left: 17%;
     }
+    .cards.second{
+        margin-top: 5%;
+    }
     
 }
 
@@ -237,6 +240,45 @@ body{
 
 }
 
+
+.active {
+    display: none;
+}
+
+.section, .back{
+    display: flex;
+    justify-content: center;
+}
+.section-1, .section-2
+{
+    margin-right: 2rem;
+    margin-top: 5rem;
+    width: 15%;
+    max-width: 300px;
+    height: 15%;
+    max-height: 300px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    text-align: center;
+    background-color: rgba(36, 41, 46, 0.6);
+    cursor: pointer;
+}
+
+.section-header-text
+{
+    color: rgb(246, 248, 250);
+    font-size: 1.5rem;
+    margin-top: 10px;    
+    /* margin-bottom: 0; */
+}
 
 
 
