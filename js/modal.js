@@ -55,3 +55,10 @@ document.getElementById("back").addEventListener("click", function(event){
     document.getElementById("AC").parentNode.parentNode.classList.remove("active");
 
 })
+
+
+// show items of book exercise
+document.getElementById("AL").addEventListener("click", function(event){
+    event.stopPropagation();
+    
+})
